@@ -1,5 +1,5 @@
 'use client';
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect,useState } from 'react';
 import { projects } from './Data';
 import Card from './Card/Card';
 import { motion, useScroll, useTransform } from 'framer-motion';

@@ -1,13 +1,13 @@
 import React from 'react'
 
 
-function Hero() {
+function Hero() { 
     return (
         <section className="bg-[#122620] rounded-bl-[299px] shadow-shd ">
             <div className="flex flex-row ml-36 ">
 
                 <div className="text-white mt-20 ">
-                    <div className="text-5xl mb-4 font-galpike relative">
+                    <div className="text-5xl mb-4 font-galpike relative mt-20">
                         You’re
                         <span className="font-galpike">
                             <span>
@@ -22,7 +22,7 @@ function Hero() {
                     <div className="text-4xl mb-6 font-galpike">Exhale for Better</div>
                     <div className="text-7xl font-mioge mb-6 text-[#F5D9D6]">Mental Health.</div>
 
-                    <button className=" mb-14 px-6 py-3 text-2xl bg-transparent border-2 border-[#F5D9D6] text-white rounded-full hover:bg-[#F5D9D6] hover:text-black transition duration-300 ml-24 hover:text-medium">
+                    <button className=" mb-14 px-6 py-3 text-2xl bg-transparent border-2 border-[#F5D9D6] text-white rounded-full hover:font-semibold hover:bg-[#F5D9D6] hover:text-black transition duration-300 ml-24 hover:text-medium">
                         Wanna Talk About It?
                     </button>
 
